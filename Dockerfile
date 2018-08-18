@@ -1,4 +1,4 @@
-FROM centos:centos7 as jenkins-devtools
+FROM centos:centos7 as jenkdock-devtools
 LABEL "vendor"="Geensnip"
 LABEL authors="Chris Sondermeijer <chris.sondermeijer@gmail.com>"
 ARG version=$version
